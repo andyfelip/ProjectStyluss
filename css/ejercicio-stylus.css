@@ -1,0 +1,120 @@
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+h2 {
+  font-size: 25px;
+  margin: 0;
+}
+h1 {
+  font-size: 30px;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: font-family: 'Lato', sans-serif;;
+  color: #333;
+}
+.buscador {
+  width: 100%;
+  height: 250px;
+  padding: 100px;
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  text-align: center;
+}
+.buscador__input {
+  width: 75%;
+  height: 60px;
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 25px;
+}
+.encabezado--con-filtros {
+  margin-bottom: 40px;
+  justify-content: space-between;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.encabezado--con-filtros h2 {
+  margin-top: 10px;
+  font-size: 50px;
+  font-family: font-weight: 700;;
+}
+.filtros {
+  width: 250px;
+  height: 75px;
+  padding: 20px;
+  padding-left: 40px;
+  margin-left: 0 auto;
+  border: 1px transparent rgba(51,51,51,0.1);
+  box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
+  background-color: #fff;
+}
+.filtros span {
+  font-family: font-weight: 700;;
+}
+.filtros a {
+  margin-left: 20px;
+  font-size: 25px;
+  color: #333;
+}
+.contenido {
+  margin-bottom: 40px;
+  justify-content: space-between;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.contenido_noticias {
+  margin-bottom: 40px;
+  justify-content: space-between;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.caja {
+  max-width: 430px;
+  box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
+  background-color: #fff;
+}
+.caja_contenido {
+  padding: 20px;
+  background-color: #fff;
+}
+.caja_contenido span {
+  text-transform: uppercase;
+  color: #8841da;
+  font-family: font-weight: 700;;
+}
+.caja_contenido h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: font-weight: 700;;
+}
+.estadistica--articulos {
+  height: 70px;
+  padding: 20px;
+  border-top: 1px solid rgba(51,51,51,0.3);
+}
+.estadistica--articulos ul {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.estadistica--articulos ul li {
+  list-style: none;
+  color: rgba(51,51,51,0.3);
+}
+.estadistica--articulos ul span {
+  margin-left: 10px;
+  color: rgba(51,51,51,0.3);
+}
